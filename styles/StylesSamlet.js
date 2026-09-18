@@ -19,18 +19,13 @@ export const StylesSamlet = StyleSheet.create({
         justifyContent: 'center',
     },
 
-    //Styling for kun min liste
-    listenSelv: {
-    backgroundColor: '#d1d1d1',
-    height: 300,
-    },
-
     //Styling for hver individuel sportsgren på listen
     itemSportsgren: {
     backgroundColor: '#ee7e34',
     padding: 10,
     marginVertical: 6,
     width: '100%',
-    }
+    },
+
 
 });

@@ -6,8 +6,10 @@ import { StylesSamlet } from '../styles/StylesSamlet';
 
 export default function CoachScreen() {
   return (
+    //Gør brug af den globale styles fil
     <View style={StylesSamlet.container}>
-      <Text>Welcome to the 3 Screen</Text>
+      {/*Beskriver hvad planen er med siden*/}
+      <Text>Her vil man kunne få info omkring den enkelte coach</Text>
       <StatusBar style="auto" />
     </View>
   );
